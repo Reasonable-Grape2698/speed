@@ -8,7 +8,6 @@
     { "src": "/speedtest.js", "dest": "/api/speedtest.js" },
     { "src": "/speedtest_worker.js", "dest": "/api/speedtest_worker.js" },
     { "src": "/backend/(.*)", "dest": "/api/$1" }
-    { "src": "/", "dest": "/api/index.html" }
   ],
   "build": {
     "env": {
