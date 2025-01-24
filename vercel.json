@@ -1,15 +1,14 @@
 {
   "functions": {
-    "api/**/*.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.7.3"
     }
   },
   "routes": [
+    { "src": "/speedtest.js", "dest": "/api/speedtest.js" },
+    { "src": "/speedtest_worker.js", "dest": "/api/speedtest_worker.js" },
     { "src": "/(.*)", "dest": "/api/$1" }
   ],
-  "env": {
-    "NOW_PHP_FOO": "bar3"
-  },
   "build": {
     "env": {
       "NOW_PHP_DEBUG": "1"
