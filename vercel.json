@@ -1,11 +1,10 @@
 {
   "functions": {
-    "speed/**/*.php": {
+    "api/**/*.php": {
       "runtime": "vercel-php@0.7.3"
     }
   },
   "routes": [
-    { "src": "/speed/(.*)", "dest": "/speed/$1" },
     { "src": "/(.*)", "dest": "/speed/$1" }
   ],
   "env": {
