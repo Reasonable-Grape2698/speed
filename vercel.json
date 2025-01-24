@@ -1,6 +1,18 @@
 {
   "functions": {
-    "api/index.php": {
+    "speed/backend/empty.php": {
+      "runtime": "vercel-php@0.7.3"
+    }
+      "/index.php": {
+      "runtime": "vercel-php@0.7.3"
+    }
+      "speed/backend/garbage.php": {
+      "runtime": "vercel-php@0.7.3"
+    }
+      "peed/backend/getIP.php": {
+      "runtime": "vercel-php@0.7.3"
+    }
+      "speed/backend/getIP_ipInfo_apikey.php": {
       "runtime": "vercel-php@0.7.3"
     }
   },
@@ -10,7 +22,7 @@
     { "src": "/peed/backend/empty.php", "dest": "speed/backend/empty.php" }
     { "src": "/speed/backend/garbage.php", "dest": "speed/backend/garbage.php" }
     { "src": "/speed/backend/getIP.php", "dest": "speed/backend/getIP.php" }
-    { "src": "/speed/backend/getIP_ipInfo_apikey.php.ph", "dest": "speed/backend/getIP_ipInfo_apikey.php.php" }
+    { "src": "/speed/backend/getIP_ipInfo_apikey.php.ph", "dest": "speed/backend/getIP_ipInfo_apikey.php" }
     { "src": "/speedtest_worker.js", "dest": "speed/speedtest_worker.js" }
     { "src": "/speedtest.js", "dest": "speed/speedtest.js" }
     
