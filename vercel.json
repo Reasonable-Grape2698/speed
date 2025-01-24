@@ -11,8 +11,8 @@
     { "src": "/speed/backend/garbage.php", "dest": "speed/backend/garbage.php" }
     { "src": "/speed/backend/getIP.php", "dest": "speed/backend/getIP.php" }
     { "src": "/speed/backend/getIP_ipInfo_apikey.php.ph", "dest": "speed/backend/getIP_ipInfo_apikey.php.php" }
-    { "src": "/speedtest_worker.js", "dest": "speed/speedtest_worker.js" }
-    { "src": "/speedtest.js", "dest": "speed/speedtest.js" }
+    { "src": "/speedtest_worker", "dest": "speed/speedtest_worker.js" }
+    { "src": "/speedtest", "dest": "speed/speedtest.js" }
     
   ],
   "build": {
