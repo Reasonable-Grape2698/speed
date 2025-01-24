@@ -5,7 +5,7 @@
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/speed/$1" }
+    { "src": "/(.*)", "dest": "/api/$1" }
   ],
   "env": {
     "NOW_PHP_FOO": "bar3"
