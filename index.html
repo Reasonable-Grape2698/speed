@@ -9,6 +9,7 @@
 <script type="text/javascript" src="./speedtest_worker.js"></script>>
 
 //INITIALIZE SPEEDTEST
+<script>
 var s=new Speedtest(); //create speedtest object
 s.onupdate=function(data){ //callback to update data in UI
     I("ip").textContent=data.clientIp;
